@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: auto;
+    max-width: 38rem;
+    padding: 2rem;
+  }
+  
+  video {
+    width: 544px;
+    height: 306px;
+    background-color: #371f5e;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    box-shadow: 2px 5px 10px #251a42;
+    background-image: url('cameraicon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .is-text {
+    height: auto;
+    white-space: normal;
+  }
+  
+  #saveProgressBar {
+    display: none;
+  }
